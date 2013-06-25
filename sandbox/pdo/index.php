@@ -1,7 +1,11 @@
 <?php
 
 require 'lib/config.php';
+<<<<<<< HEAD
 $id = 6;
+=======
+$id = 3;
+>>>>>>> parent of d400ef3... PDO
 try {
 	$conn = new PDO('mysql:host=' . $config['DB_HOST'] . ';dbname=' . $config['DB_NAME'], $config['DB_USERNAME'], $config['DB_PASSWORD']);
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
