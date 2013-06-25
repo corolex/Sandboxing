@@ -1,7 +1,7 @@
 <?php
 
 require 'lib/config.php';
-$id = 5;
+$id = 6;
 try {
 	$conn = new PDO('mysql:host=' . $config['DB_HOST'] . ';dbname=' . $config['DB_NAME'], $config['DB_USERNAME'], $config['DB_PASSWORD']);
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
